@@ -1,9 +1,13 @@
-.classpath
-.project
+# VS Code
+/.vscode/*
 .settings
-target
-docker/app
+.project
+.classpath
+.factorypath
 
-dependency-reduced-pom.xml
-vertx-graalvm-native-image-test-0.0.1-SNAPSHOT
-.vscode
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
